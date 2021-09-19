@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.full-page{
+    background-image:url("./photos/back.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.operations{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+}
+
+.operations button{
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    box-shadow: #020405;
+}
+#blue{
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    border: 2px solid blue;
+    width: 300px;
+    text-decoration: none;
+}
+
+#blue:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+#green{
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    border: 2px solid red;
+    width: 300px;
+    text-decoration: none;
+}
+
+#green:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height:40px;
+    bottom: 0px;
+}
+
+#foot {
+    text-align: center;
+    padding-top:10px;
+    color: black;
+}
